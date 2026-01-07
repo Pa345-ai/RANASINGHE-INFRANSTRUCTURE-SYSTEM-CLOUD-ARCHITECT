@@ -4,7 +4,7 @@ To expand to a second region, you must define an additional provider instance an
 ### 1. provider.tf — Add Region Aliases
 Keep your existing provider block. Add the following below it to enable a secondary region.
 
-```hcl
+''hcl
 provider "aws" {
   alias  = "secondary"
   region = var.secondary_region
