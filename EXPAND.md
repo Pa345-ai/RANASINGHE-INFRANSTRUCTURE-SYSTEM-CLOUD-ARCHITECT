@@ -21,7 +21,7 @@ provider "aws" {
 2. variables.tf — Add Secondary Region Variable
 Define the variable that will drive the secondary provider configuration.
 
-```hcl
+
 variable "secondary_region" {
   description = "Secondary AWS region for multi-region deployments"
   type        = string
@@ -31,7 +31,7 @@ variable "secondary_region" {
 3. Using the Secondary Region (Example)
 When expanding, resources are duplicated explicitly by referencing the secondary alias.
 
-```hcl
+
 resource "aws_vpc" "secondary" {
   provider   = aws.secondary
   cidr_block = "10.1.0.0/16"
@@ -45,7 +45,7 @@ resource "aws_vpc" "secondary" {
 To minimize the blast radius, each region must use its own state file path. No shared state.
 # Example logic for backend selection
 
-```hcl
+
 key = "production/us-west-2/terraform.tfstate"
 
 B. Multi-Account Expansion
