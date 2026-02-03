@@ -5,6 +5,8 @@ Licensed for single commercial use - See LICENSE.txt
 -->
 
 # AWS Terraform Starter Kit – The 2-Week Shortcut
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPa345-ai%2FRANASINGHE-INFRANSTRUCTURE-SYSTEM-CLOUD-ARCHITECT.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPa345-ai%2FRANASINGHE-INFRANSTRUCTURE-SYSTEM-CLOUD-ARCHITECT?ref=badge_shield)
+
 **Version 1.0.0** | Released December 2025
 **Ship your SaaS MVP in 10 minutes, not 2 weeks.**
 
@@ -713,6 +715,9 @@ You may modify this code for your own projects. You may NOT resell, redistribute
 See `LICENSE.txt` for full details.
 
 ---
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPa345-ai%2FRANASINGHE-INFRANSTRUCTURE-SYSTEM-CLOUD-ARCHITECT.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FPa345-ai%2FRANASINGHE-INFRANSTRUCTURE-SYSTEM-CLOUD-ARCHITECT?ref=badge_large)
 
 ## Final Thoughts
 
